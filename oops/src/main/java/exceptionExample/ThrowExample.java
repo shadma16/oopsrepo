@@ -16,7 +16,7 @@ public class ThrowExample {
 		}
 		else
 		{
-			throw new ArithmeticException("Age under 18");
+			throw new ArithmeticException("Age under 18"); //NullPointerException //throw new Exceptionname("msg");
 		}
 	}
 

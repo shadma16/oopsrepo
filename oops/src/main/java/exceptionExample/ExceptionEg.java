@@ -10,14 +10,14 @@ public class ExceptionEg {
     	    int c= a/b; 
      }
      
-    /* catch(ArithmeticException e)
+    /* catch(ArithmeticException e) exception kanikenula so we sue a variable name e  : exception detailsine hold cheyene variable
    {
     	 b=2;
     	 int d=a/b;
     	 System.out.println(d);
     	 System.out.println(e);
-     }*/
- finally
+     } OR */
+ finally // madotory ayite finally execute cheyum
  {
 	 System.out.println("mandatory things");
 	 b=2;

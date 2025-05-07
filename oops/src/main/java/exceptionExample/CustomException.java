@@ -12,7 +12,7 @@ int age =16;
 		}
 		else
 		{
-			throw new VotingException("Age under 18");
+			throw new VotingException("Age under 18"); //new class created votingException
 		}
 	}
 
