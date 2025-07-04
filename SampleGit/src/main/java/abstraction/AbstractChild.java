@@ -16,8 +16,8 @@ public class AbstractChild  extends AbstractParent{
 	
 	public static void main(String args[])
 	{
-		AbstractChild obj=new AbstractChild();
-		//AbstractParent obj=new AbstractChild(); //ref for parent class
+		//AbstractChild obj=new AbstractChild();
+		AbstractParent obj=new AbstractChild(); //ref for parent class
 		obj.sum();
 		
 	}

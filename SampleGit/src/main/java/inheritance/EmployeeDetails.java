@@ -1,8 +1,20 @@
 package inheritance;
 
-public class EmployeeDetails {
-	double basicPay=50000;
-	double deduction=2000;
-	double bonus=3000;
+import java.util.Scanner;
 
+public class EmployeeDetails {
+	double basicPay, deduction, bonus;
+
+    void getInput() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Basic Pay: ");
+        basicPay = sc.nextDouble();
+
+        System.out.println("Enter Deduction: ");
+        deduction = sc.nextDouble();
+
+        System.out.println("Enter Bonus: ");
+        bonus = sc.nextDouble();
+    }
 }

@@ -10,4 +10,9 @@ public class AggregationSample {
 		this.rollno=rollno;
 		this.address=address;
 	}
+	
+	void print()
+	{
+		System.out.println("sasasdada");
+	}
 }

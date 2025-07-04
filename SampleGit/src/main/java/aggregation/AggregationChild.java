@@ -22,6 +22,7 @@ public class AggregationChild {
 		AggregationSample obj = new AggregationSample("Joe",2,"28 villa");
 		AggregationChild obj1 = new AggregationChild("Texas","USA", obj);
 		obj1.Display();
+		obj.print();
 
 	}
 

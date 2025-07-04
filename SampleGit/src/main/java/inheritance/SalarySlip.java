@@ -3,6 +3,9 @@ package inheritance;
 public class SalarySlip extends SalaryDetails {
     public void calcTotalSalary()
     {
+    	
+            super.calc();   // Calculate hra and pf
+       
   	  double totalSalary = basicPay + hra - pf - deduction + bonus;
   	  
   	  System.out.println("\nSalarySlip");
@@ -14,4 +17,10 @@ public class SalarySlip extends SalaryDetails {
   	  System.out.println("Total Salary  :  " + totalSalary);
   	  
     }
+    public static void main(String[] args) {
+		SalarySlip emp = new SalarySlip();
+		emp.calc();
+		emp.calcTotalSalary();
+
+	}
 }

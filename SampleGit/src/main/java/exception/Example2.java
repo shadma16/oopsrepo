@@ -2,7 +2,7 @@ package exception;
 
 public class Example2 {
 
-	public static void checkAge(int age) /*throws ArithmeticException*/  {
+	public static void checkAge(int age) throws ArithmeticException {
         if (age < 18) {
             throw new ArithmeticException("Access denied - You must be at least 18 years old.");
         } else {
@@ -11,7 +11,7 @@ public class Example2 {
     }
 
     public static void main(String[] args) {
-        checkAge(16);  // This will throw an exception
+        checkAge(20);  // This will throw an exception
     }
 
 }

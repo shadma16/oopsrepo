@@ -4,8 +4,8 @@ public class SuperConstructor  {
 	
 	public SuperConstructor(int a, int b)
 	{
-		int res=a+b;
-		System.out.println(res);
+		int c=a+b;
+		System.out.println(c);
 	}
 	
 	
