@@ -39,3 +39,47 @@ public class ColorList {
 	}
 }
 
+
+
+/*import java.util.ArrayList;
+
+public class ListMethodsExample {
+    public static void main(String[] args) {
+        ArrayList<String> fruits = new ArrayList<>();
+
+        // 1. add() – Add elements to the list
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Mango");
+        fruits.add("Apple"); // duplicate element
+        System.out.println("Fruits List: " + fruits);
+
+        // 2. get() – Get element at index 2
+        System.out.println("Element at index 2: " + fruits.get(2));
+
+        // 3. set() – Replace element at index 1
+        fruits.set(1, "Orange");
+        System.out.println("After set(): " + fruits);
+
+        // 4. indexOf() – Index of first occurrence of "Apple"
+        System.out.println("First index of 'Apple': " + fruits.indexOf("Apple"));
+
+        // 5. lastIndexOf() – Index of last occurrence of "Apple"
+        System.out.println("Last index of 'Apple': " + fruits.lastIndexOf("Apple"));
+
+        // 6. remove() – Remove element at index 0
+        fruits.remove(0);
+        System.out.println("After remove(): " + fruits);
+
+        // 7. contains() – Check if list contains "Mango"
+        System.out.println("Contains 'Mango'? " + fruits.contains("Mango"));
+
+        // 8. isEmpty() – Check if list is empty
+        System.out.println("Is list empty? " + fruits.isEmpty());
+
+        // 9. size() – Number of elements in the list
+        System.out.println("List size: " + fruits.size());
+    }
+}
+*/
+

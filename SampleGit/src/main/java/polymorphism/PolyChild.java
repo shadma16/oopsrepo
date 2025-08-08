@@ -15,7 +15,8 @@ public class PolyChild extends PolyParent{
 		// TODO Auto-generated method stub
 		PolyChild obj=new PolyChild();
 				obj.sum(3,8);
-		
+				
+						
 	}
 
 }

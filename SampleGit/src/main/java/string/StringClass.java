@@ -44,9 +44,7 @@ public class StringClass {
 		        // 10. contains()
 		        System.out.println("Contains 'Program'? " + text.contains("Program"));
 
-		        // 11. replace()
-		        System.out.println("Replace 'a' with 'o': " + text.replace('a', 'o'));
-		    }
+		          }
 
 		// TODO Auto-generated method stub
 

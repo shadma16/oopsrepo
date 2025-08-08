@@ -4,10 +4,10 @@ public class Encap1 {
 	private String name;
 	private int rollno;
 
-	public void set(String n, int roll)
+	public void set(String name, int rollno)
 	{
-		this.name=n;
-		this.rollno=roll;
+		this.name=name;
+		this.rollno=rollno;
 	}
 	
 	public void get()
